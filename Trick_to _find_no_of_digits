@@ -1,0 +1,8 @@
+class Trick
+{
+  public static void main(String args[])
+  {
+    int y=462649;       // Here we will find total no of digit in y
+	System.out.println(Math.floor(Math.log10(y))+1);    
+  }
+}
