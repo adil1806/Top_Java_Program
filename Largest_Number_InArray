@@ -1,0 +1,11 @@
+import java.util.Arrays;
+class Largest_Number{
+  public static int gerLarger(int[]a ,int[]b){
+  Arrays.sort(a);
+  return a[b-1];
+  }
+  public static void main(String args[]){
+  int a[]={1,8,3,2,9};
+  System.out.println("Largest number"+ getLargest(a,5));
+  }
+}
